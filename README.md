@@ -3,7 +3,7 @@
 Docker swarm manager setup (3 nodes)
 Services running on YKT Vms
 
-    k8smaster.watson.ibm.com
+    k8smaster.00.com
         Docker v1.12
         etcd v2.3.1
         Swarm manager v1.2.0
@@ -12,7 +12,7 @@ Services running on YKT Vms
 
     for service in docker etcd swarm netmaster netplugin; do systemctl start $service; systemctl status $service; done
 
-    k8sminion1.watson.ibm.com
+    k8sminion1.00.com
         Docker v1.12
         etcd v2.3.1
         Swarm manager v1.2.0
@@ -20,7 +20,7 @@ Services running on YKT Vms
 
     for service in docker etcd swarm netplugin; do systemctl start $service; systemctl status $service; done
 
-    k8sminion2.watson.ibm.com
+    k8sminion2.00.com
         Docker v1.12
         etcd v2.3.1
         Swarm manager v1.2.0
