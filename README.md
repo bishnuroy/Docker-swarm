@@ -1,7 +1,7 @@
 # Docker-swarm
 
 Docker swarm manager setup (3 nodes)
-Services running on YKT Vms
+Services running on Vms
 
     k8smaster.00.com
         Docker v1.12
