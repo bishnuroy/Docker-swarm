@@ -13,4 +13,6 @@ A container image is a lightweight, stand-alone, executable package of a piece o
 
 
 
+![D-S-Contiv](https://github.com/bishnuroy/Docker-Swarm-Contiv/blob/master/Image/D-S-Contiv.png)
+
  
