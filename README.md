@@ -11,7 +11,6 @@ Docker is a computer program that performs operating-system-level virtualization
 
 A container image is a lightweight, stand-alone, executable package of a piece of software that includes everything needed to run it: code, runtime, system tools, system libraries, settings.
 
-Some docker swarm related info you can get here: https://github.com/docker/swarm.
 
 
  
