@@ -1,0 +1,35 @@
+{
+  "signing": {
+    "default": {
+      "expiry": "43800h"
+    },
+    "profiles": {
+      "server": {
+        "usages": [
+          "signing",
+          "key encipherment",
+          "server auth"
+        ],
+        "expiry": "43800h"
+      },
+      "client": {
+        "usages": [
+          "signing",
+          "key encipherment",
+          "client auth"
+        ],
+        "expiry": "43800h"
+      },
+      "client-server": {
+        "usages": [
+          "signing",
+          "key encipherment",
+          "client auth",
+          "client auth"
+        ],
+        "expiry": "43800h"
+      }
+
+    }
+  }
+}
