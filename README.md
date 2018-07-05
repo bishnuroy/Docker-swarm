@@ -1,8 +1,5 @@
 Document In Progress.
 
-
-
-
 ### Docker
 
 Docker is a computer program that performs operating-system-level virtualization also known as containerization. It was first released in 2013 and is developed by Docker, Inc. Docker is used to run software packages called "containers".
@@ -11,6 +8,10 @@ Docker is a computer program that performs operating-system-level virtualization
 
 A container image is a lightweight, stand-alone, executable package of a piece of software that includes everything needed to run it: code, runtime, system tools, system libraries, settings.
 
+
+### Docker Swarm
+
+Docker Swarm is native clustering for Docker. It turns a pool of Docker hosts into a single, virtual Docker host. Because Docker Swarm serves the standard Docker API, any tool that already communicates with a Docker daemon can use Swarm to transparently scale to multiple hosts.
 
 ## Swarm Contiv Cluster Architecture:
 
