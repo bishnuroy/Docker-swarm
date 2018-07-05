@@ -1,0 +1,17 @@
+{
+  "CN": "swarm",
+  "hosts": [""],
+  "key": {
+    "algo": "rsa",
+    "size": 4096
+  },
+  "names": [
+    {
+      "C": "US",
+      "L": "Southbury",
+      "O": "IBM",
+      "OU": "CIO Cloud Platform",
+      "ST": "CT"
+    }
+  ]
+}
