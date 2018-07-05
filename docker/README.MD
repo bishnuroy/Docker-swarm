@@ -3,11 +3,11 @@ Follow this document to install docker service.
 
 https://docs.docker.com/install/linux/docker-ce/centos/
 
-### Dependency service:
+## Dependency service:
 
 If needed install them by following below commands.
 
-container-selinux-2.9
+### container-selinux-2.9
 
 ```
 yum install ftp://ftp.icm.edu.pl/vol/rzm3/linux-centos-vault/7.3.1611/extras/x86_64/Packages/container-selinux-2.9-4.el7.noarch.rpm
@@ -22,7 +22,7 @@ yum install ftp://ftp.icm.edu.pl/vol/rzm6/linux-oracle-repo/OracleLinux/OL7/deve
 Copy server.pem, server-key.pem, client.pem, client-key.pem, ca.crt file in "/etc/docker/certs/" folder.
 
 
-# cat /usr/lib/systemd/system/docker.service
+### cat /usr/lib/systemd/system/docker.service
 
 ```console
 [Unit]
