@@ -21,6 +21,8 @@ yum install ftp://ftp.icm.edu.pl/vol/rzm6/linux-oracle-repo/OracleLinux/OL7/deve
 
 Copy server.pem, server-key.pem, client.pem, client-key.pem, ca.crt file in "/etc/docker/certs/" folder.
 
+Edit docker service file like below to enable tls.
+
 
 ### cat /usr/lib/systemd/system/docker.service
 
