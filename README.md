@@ -1,4 +1,10 @@
-Document In Progress.
+
+**This document is created for a different kind of requirement.**
+
+ - The communication with the container and outside will be happening over Firewall
+(Cisco vASA).
+ - To monitor traffic over a firewall.
+ - Control the access with firewall rules.
 
 ### Docker
 
